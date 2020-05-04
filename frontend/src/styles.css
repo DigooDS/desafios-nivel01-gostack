@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: #32425c;
+}
+
+/* div title */
+.title {
+  display: flex;
+  justify-content: center;
+
+  padding: 35px 0;
+
+  background: #121520;
+  color: #fff;
+
+  margin-bottom: 20px;
+}
+
+/* título "Lista de Repositórios" */
+.title h1 {
+  font-style: italic;
+}
+
+/* div das UL*/
+.repositories ul {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+
+  flex-wrap: wrap;
+}
+
+/* lista GERAL */
+.repositories ul li {
+  text-align: center;
+
+  margin: 20px;
+  padding: 30px;
+
+  width: 500px;
+
+  background-color: #fff;
+
+  transition: all 300ms ease-in-out;
+}
+
+.repositories ul li:hover {
+  outline: #A1395B solid 2px ;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* TÍTULO de cada item da lista */
+.repositories li div.repoTitle {
+  color: #121520;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: underline;
+
+  margin-bottom: 25px;
+}
+
+/* TECHS de cada item da lista */
+.repositories li div.repoTechs {
+  margin-bottom: 8px;
+}
+
+/* TEXTO das TECHS de cada item da lista */
+.repositories li div.repoTechs text {
+  color: #fff;
+  font-style: italic;
+  font-size: 13px;
+
+  margin: 0 8px 0 8px;
+  padding: 5px 8px;
+  
+  line-height: 50px;
+
+  background-color: #A1395B; 
+}
+
+/* "Link para github" */
+.repositories li div.repoLink p {
+  color: #5a5a5a;
+  font-style: normal;
+
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+/* LINK de cada item da lista */
+.repositories li div.repoLink {
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.repositories li div.repoLink span {
+  color: #325aa0;
+}
+
+.repositories li div.repoLikes {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(179, 19, 72);
+  
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+
+/* botão REMOVER de cada item da lista */
+.repositories li button {
+  font-size: 15px;
+  color: rgb(255, 221, 221);
+  font-style: none;
+  background-color: #e77588;
+  outline: none;
+  text-decoration: none;
+
+  border: 0;
+  border-radius: 3px;
+
+  cursor: pointer;
+
+  padding: 10px 15px;
+
+  transition: all 300ms ease-in-out;
+}
+
+.repositories li button:hover {
+  padding: 10px 65px;
+
+  color: #fff;
+  background-color: #ec1141;
+}
+
+/* div geral do formulário */
+.form {
+  background: #32425c;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.form h1 {
+  margin-top: 30px;
+  
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  color: #fff;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  margin: 0px 20px 20px;
+
+  width: 80%;
+  max-width: 800px;
+
+  right: auto;
+  left: auto;
+}
+
+.form form input {
+  font-size: 18px;
+  text-align: center;
+
+  margin-top: 20px;
+  padding: 12px 30px;
+
+  outline: none;
+
+  border: 0;
+}
+
+.form form input::placeholder {
+  color: #bbbbbb;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.form button {
+  font-size: 20px;
+  font-weight: 700;
+  color: #9ebeda;
+  font-style: none;
+  background-color: #23385a;
+  outline: none;
+  text-decoration: none;
+
+  border: 0;
+  border-radius: 3px;
+
+  cursor: pointer;
+
+  padding: 12px 15px;
+
+  margin: 20px;
+
+  width: 300px;
+
+  align-self: center;
+
+  right: auto;
+  left: auto;
+
+  transition: all 300ms ease-in-out;
+}
+
+.form button:hover {
+  width: 387px;
+  color: #fff;
+  background-color: #007ae6;
+}
