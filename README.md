@@ -28,7 +28,7 @@ Implementação dos desafios do Nível 01 aplicado no Bootcamp GoStack da Rocket
 
 ## 🔖 Sobre
 
-Implementação visual dos 3 Desafios propostos pela bootcamp GoStack da Rocketseat em que o intuito era criar uma aplicação que permite armazenar repositórios do seu portfólio, que permite a criação, listagem e remoção dos repositórios, e além disso que os repositórios também possam receber "likes".
+Implementação visual dos 3 Desafios propostos pelo bootcamp GoStack da Rocketseat em que o intuito era criar uma aplicação que permite armazenar repositórios do seu portfólio, que permite a criação, listagem e remoção dos repositórios, e além disso que os repositórios também possam receber "likes".
 
 ---
 
@@ -50,7 +50,7 @@ Este desafio consistiu em criar o **back-end** da aplicação que permitem retor
 ---
 
 **DESAFIO 2:**
-Neste desafio foi proposto fazer a ligação do Front-end (utilizando o ReactJS) com o Back-end (Nodejs) onde os objetivos são:
+Neste desafio foi proposto fazer a ligação do **Front-end** (utilizando o ReactJS) com o **Back-end** (Nodejs) onde os objetivos são:
 
 - **Listar os repositórios da API criada com o Nodejs:**
 Deve ser capaz de criar uma lista com o campo "title" de todos os repositórios cadastrados na API.
@@ -64,7 +64,7 @@ Para cada item da lista, deve possuir um botão com o texto "Remover" que, ao cl
 ---
 
 **DESAFIO 3:**
-Neste desafio foi proposto fazer a ligação do Mobile (utilizando o React Native) com o Back-end (Nodejs) onde os objetivos são:
+Neste desafio foi proposto fazer a ligação do **Mobile** (utilizando o React Native) com o **Back-end** (Nodejs) onde os objetivos são:
 
 - **Listar os repositórios da API criada com o Nodejs:**
 Deve ser capaz de criar uma lista de todos os repositórios que estão cadastrados na API com os campos title, techs e número de curtidas seguindo o padrão ${repository.likes} curtidas, apenas alterando o número para ser dinâmico.
@@ -78,7 +78,7 @@ Deve ser capaz de curtir um item da API através de um botão com o texto Curtir
 
 O intuito deste repositório é conter os desafios com implementações, para a prática de CSS, ReactJS e React Native. Segue os detalhes das implementações:
 
-- ***Front-end com ReactJS (Desafio 02):*** Aqui além do que já foi proposto, foi implementado campos para preenchimento do título, tecnologias e url do repositório. Assim que preenchido e adicionado através do botão iniciar, o reposiório é renderizado em tela e armazenado no backend. Caso o usuário tentar adicionar um repositório sem um dos três campos serem preenchidos, um alerta aparece em tela dizendo que todos os campos são obrigatórios preencher além de nada ser armazenado no backend. Teve também implementações visuais para a prática de flexbox com CSS.
+- ***Front-end com ReactJS (Desafio 02):*** Aqui foi implementado campos para preenchimento do título, tecnologias e url do repositório. Assim que preenchido e adicionado através do botão adicionar, o repositório é renderizado em tela e armazenado no backend. Caso o usuário tentar adicionar um repositório sem um dos três campos serem preenchidos, um alerta aparece em tela dizendo que todos os campos são obrigatórios preencher além de nada ser armazenado no backend. Teve também implementações visuais para a prática de flexbox com CSS.
 
 - ***Mobile com React Native (Desafio 03):*** Foi implementado a possibilidade de ser renderizado em tela o link do github preenchido pelo usuário.
 
